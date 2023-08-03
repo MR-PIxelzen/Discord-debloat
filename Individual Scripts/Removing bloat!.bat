@@ -259,7 +259,7 @@ rd /s /q "discord_rpc-1"
 rd /s /q "discord_Spellcheck-1"
 rd /s /q "discord_overlay2-1"
 REM DELETES discord_game_sdk_x86.dll and discord_game_sdk_x64.dll
-rem Credit https://superuser.com/questions/1458697/batch-file-to-search-for-a-file-then-delete
+Rem Credit https://superuser.com/questions/1458697/batch-file-to-search-for-a-file-then-delete
 @echo off
 
 for /r "c:" %%A in (discord_game_sdk_x64.dll) do (
