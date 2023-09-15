@@ -15,7 +15,9 @@ Before using Discord Debloat, make sure you have the following prerequisites:
 
 - A Windows operating system (the script is designed for Windows).
 - Discord desktop application installed and logged in.
-  ```Powershell Set-ExecutionPolicy Unrestricted
+- set powershell execution policy to unrestricted
+  ```Powershell
+  Set-ExecutionPolicy Unrestricted
   
 ## Installation
 
