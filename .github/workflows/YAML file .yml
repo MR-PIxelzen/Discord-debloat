@@ -1,9 +1,10 @@
-name: Bump Version and Release
-
 on:
-  push:
+  push: # Trigger the workflow on any push to any branch
     branches:
-      - main # Change this to your repository's main branch
+      - '*' # All branches
+  delete: # Trigger the workflow when a file is deleted
+    branches:
+      - '*' # All branches
 
 jobs:
   bump_and_release:
@@ -23,13 +24,5 @@ jobs:
           release-type: 'release'
           release-token: ${{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}}  # Replace with the name of your secret
 
-
-
-#with:
-  #repository: 'MR-PIxelzen/Discord-debloat'
-  #user: 'YourGitHubUsername'
-  #commit-message: 'Bumped to version {{version}}'
-  #git-token: ${{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}}
-  #release-type: 'release'
-  #release-token: ${{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}
+  
 
