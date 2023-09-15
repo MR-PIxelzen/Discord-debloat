@@ -14,7 +14,8 @@ Discord Debloat is a script designed to help you remove unnecessary and potentia
 Before using Discord Debloat, make sure you have the following prerequisites:
 
 - A Windows operating system (the script is designed for Windows).
-- Discord desktop application installed and logged in.
+- Discord desktop application installed and logged in.\
+- open powershell as admin
 - set powershell execution policy to unrestricted
   ```Powershell
   Set-ExecutionPolicy Unrestricted
