@@ -22,7 +22,6 @@ jobs:
           commit-message: 'Bumped to version {{version}}'
           git-token: ${{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}}  # Replace with the name of your secret
           release-type: 'release'
-          release-token: ${{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}}  # Replace with the name of your secret
+          release-token: ${{secrets.GITHUB_TOKE}}  # Replace with the name of your secret
 
   
-
