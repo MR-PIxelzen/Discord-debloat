@@ -1,7 +1,6 @@
 # Discord Debloat
 
-Discord Debloat is a script designed to help you remove unnecessary and potentially annoying features from the Discord desktop application using PowerShell and batch scripting. If you find Discord to be bloated with features you don't use or dislike, this script can help you streamline your Discord experience. to lower potential unwanted memory usage
-
+If you've noticed that the Discord desktop application is plagued with an array of superfluous and potentially vexing features, then the Discord Debloat script may be just the solution you need. This clever little tool employs PowerShell and batch scripting to carefully remove those pesky features, which in turn, can help streamline your Discord experience. Not only does this result in a more enjoyable user experience, but it can also significantly reduce your overall memory usage. So, if you're looking for a way to optimize your Discord experience, the Discord Debloat script may be just what you need.
 
 ## Features
 
@@ -15,8 +14,8 @@ Before using Discord Debloat, make sure you have the following prerequisites:
 
 - A Windows operating system (the script is designed for Windows).
 - Discord desktop application installed and logged in.\
-- open powershell as admin
-- set powershell execution policy to unrestricted
+- open PowerShell as admin
+- set PowerShell execution policy to unrestricted
   ```Powershell
   Set-ExecutionPolicy Unrestricted
   
