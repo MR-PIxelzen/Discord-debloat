@@ -25,4 +25,4 @@ Before using Discord Debloat, make sure you have the following prerequisites:
 1. Clone this repository to your local machine or download the ZIP archive and extract it.
 
    ```batch
-   git clone https://github.com/yourusername/discord-debloat.git
+   git clone https://github.com/MR-PIxelzen/Discord-debloat.git
