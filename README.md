@@ -25,3 +25,10 @@ Before using Discord Debloat, make sure you have the following prerequisites:
 
    ```batch
    git clone https://github.com/MR-PIxelzen/Discord-debloat.git
+
+
+## guide to optimising all discord settings by BareFox
+
+
+```URL
+https://youtu.be/TfVkTn2L83o?t=28
