@@ -1,7 +1,7 @@
 Write-Host "Closing discord!"
 TASKKILL /T /F /IM discord.exe
 CLS
-
+e2222wwwwwwwwwwwwwwwwwwwwwww
 # List of directories to process
 $directories = @(
     "app-1.0.9001",
