@@ -1,0 +1,26 @@
+name: Bump Version and Release
+
+on:
+  push:
+    branches:
+      - main # Change this to your repository's main branch
+
+jobs:
+  bump_and_release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Bump version and release
+        uses: undergroundwires/bump-everywhere@master
+        with:
+          # repository: '' # Leave this empty to use the current repository
+          # user: ''       # Leave this empty to use the GitHub actor's name
+          # commit-message: '' # You can customize the commit message if needed
+          # git-token: ''     # Leave this empty to use the GitHub token
+          # release-type: 'release' # Set the release type: 'release,' 'prerelease,' 'draft,' or 'none'
+          # release-token: '' # Leave this empty to use the GitHub token
+          # branch: ''        # You may not need to specify a branch if using the default branch
+
