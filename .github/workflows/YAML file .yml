@@ -16,11 +16,20 @@ jobs:
       - name: Bump version and release
         uses: undergroundwires/bump-everywhere@master
         with:
-          # repository: '' # Leave this empty to use the current repository
-          # user: ''       # Leave this empty to use the GitHub actor's name
-          # commit-message: '' # You can customize the commit message if needed
-          # git-token: ''     # Leave this empty to use the GitHub token
-          # release-type: 'release' # Set the release type: 'release,' 'prerelease,' 'draft,' or 'none'
-          # release-token: '' # Leave this empty to use the GitHub token
-          # branch: ''        # You may not need to specify a branch if using the default branch
+          repository: 'MR-PIxelzen/Discord-debloat'  # Set your repository name and owner
+          user: ${{ github.actor }}  # Use the GitHub actor's name
+          commit-message: 'Bumped to version {{version}}'
+          git-token: ${{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}}  # Replace with the name of your secret
+          release-type: 'release'
+          release-token: ${{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}}  # Replace with the name of your secret
+
+
+
+#with:
+  #repository: 'MR-PIxelzen/Discord-debloat'
+  #user: 'YourGitHubUsername'
+  #commit-message: 'Bumped to version {{version}}'
+  #git-token: ${{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}}
+  #release-type: 'release'
+  #release-token: ${{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}
 
