@@ -1,3 +1,6 @@
+              - name: bump-everywhere
+                uses: undergroundwires/bump-everywhere@1.4.0
+            
 name: bump-everywhere
 description: Bump git tag to the next version, generate a changelog file, and create a release with auto-generated release notes
 inputs:
