@@ -17,7 +17,7 @@ Before using Discord Debloat, make sure you have the following prerequisites:
 - open PowerShell as admin
 - set PowerShell execution policy to unrestricted
   ```Powershell
-Set-ExecutionPolicy Unrestricted
+ Set-ExecutionPolicy Unrestricted
   
 ## Installation
 
