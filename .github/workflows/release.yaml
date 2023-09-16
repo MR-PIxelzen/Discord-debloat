@@ -15,7 +15,7 @@ jobs:
         ref: ${{ github.head_ref }}
     - name: Create local changes
       run: |
-        powershell.exe -f Compile.ps1
+        powershell.exe -f Discord_Debloat.ps1
     - uses: stefanzweifel/git-auto-commit-action@v4.16.0
       with:
-        commit_message: Compile Winutil
+        commit_message: Compile Discord_Debloat
