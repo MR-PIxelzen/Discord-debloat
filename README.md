@@ -17,17 +17,17 @@ Before using Discord Debloat, make sure you have the following prerequisites:
 - open PowerShell as admin
 - set PowerShell execution policy to unrestricted
   ```Powershell
-Set-ExecutionPolicy Unrestricted
+   Set-ExecutionPolicy Unrestricted
   
 ## Installation
 
 1. Clone this repository to your local machine or download the ZIP archive and extract it.
 
-  ```batch
-git clone https://github.com/MR-PIxelzen/Discord-debloat.git
+   ```batch
+   git clone https://github.com/MR-PIxelzen/Discord-debloat.git
 
 
-## [guide to optimising all discord settings by BareFox](https://youtu.be/TfVkTn2L83o?t=28)
+ ## [guide to optimising all discord settings by BareFox](https://youtu.be/TfVkTn2L83o?t=28)
 
 
 
