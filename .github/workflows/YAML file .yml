@@ -1,25 +1,9 @@
-on:
-  push:
-    branches:
-      - '*'
-  delete:
-    branches:
-      - '*'
-
-jobs:
-  bump_and_release:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Bump version and release
-        uses: undergroundwires/bump-everywhere@master
-        with:
-          repository: 'MR-PIxelzen/Discord-debloat'
-          user: ${{ github.actor }}
-          commit-message: 'Bumped to version {{version}}'
-          git-token: ${{ secrets.YOUR_GIT_TOKEN_SECRET }}
-          release-type: 'release'
-          release-token: ${{ secrets.GITHUB_TOKEN }}
+- name: Bump version and release
+  uses: undergroundwires/bump-everywhere@master
+  with:
+    repository: 'MR-PIxelzen/Discord-debloat'
+    user: ${{ github.actor }}
+    commit-message: 'Bumped to version v{{version}}'  # Use this single line
+    git-token: ${{ secrets.YOUR_GIT_TOKEN_SECRET }}
+    release-type: 'release'
+    release-token: ${{ secrets.GITHUB_TOKEN }}
