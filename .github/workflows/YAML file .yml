@@ -1,10 +1,10 @@
 on:
-  push: # Trigger the workflow on any push to any branch
+  push:
     branches:
-      - '*' # All branches
-  delete: # Trigger the workflow when a file is deleted
+      - '*'
+  delete:
     branches:
-      - '*' # All branches
+      - '*'
 
 jobs:
   bump_and_release:
@@ -17,11 +17,9 @@ jobs:
       - name: Bump version and release
         uses: undergroundwires/bump-everywhere@master
         with:
-          repository: 'MR-PIxelzen/Discord-debloat'  # Set your repository name and owner
-          user: ${{ MR-PIxelzen }}  # Use the GitHub actor's name
+          repository: 'MR-PIxelzen/Discord-debloat'
+          user: ${{ github.actor }}
           commit-message: 'Bumped to version {{version}}'
-          git-token: ${{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}}  # Replace with the name of your secret
+          git-token: ${{ secrets.YOUR_GIT_TOKEN_SECRET }}
           release-type: 'release'
-          release-token: ${{ secrets.GITHUB_TOKEN }}  # Replace with the name of your secret
-
-  
+          release-token: ${{ secrets.GITHUB_TOKEN }}
