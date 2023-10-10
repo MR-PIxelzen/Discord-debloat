@@ -30,7 +30,7 @@ Before using Discord Debloat, make sure you have the following prerequisites:
  ## [guide to optimising all discord settings by BareFox](https://youtu.be/TfVkTn2L83o?t=28)
  [![Watch the video](https://img.youtube.com/vi/TfVkTn2L83o?t=28/hqdefault.jpg)](https://www.youtube.com/embed/TfVkTn2L83o?t=28)
 
-[<img src="https://img.youtube.com/vi/TfVkTn2L83o?t=28/hqdefault.jpg" width="600" height="300"
+[<img src="https://i.ytimg.com/vi/TfVkTn2L83o/maxresdefault.jpg" width="600" height="300"
 />](https://www.youtube.com/embed/TfVkTn2L83o?t=28)
 
 
