@@ -1,21 +1,52 @@
-name: Update Branch
+name: Auto Number Commits and Pull Requests
 
 on:
-  push: 
-    branches: 
-      - main
-      - test*
+  push:
+    branches:
+      - main  # You can specify the branch you want to track commits for
+  pull_request:
+    types:
+      - closed
 
 jobs:
-  build-runspace:
-    runs-on: windows-latest
+  number-events:
+    runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v3
-      with:
-        ref: ${{ github.head_ref }}
-    - name: Create local changes
-      run: |
-        powershell.exe -f Discord_Debloat.ps1
-    - uses: stefanzweifel/git-auto-commit-action@v4.16.0
-      with:
-        commit_message: Compile Discord_Debloat
+      - name: Check out the code
+        uses: actions/checkout@v2
+
+      - name: Determine if the pull request was merged
+        id: check-merged
+        run: |
+          if [[ "${{ github.event.pull_request.merged }}" == "true" ]]; then
+            echo "Pull Request was merged."
+          else
+            echo "Pull Request was closed without merging."
+            exit 1
+          fi
+        shell: bash
+
+      - name: Get the current event number
+        id: get-event-number
+        run: |
+          if [[ "${{ github.event_name }}" == "push" ]]; then
+            # For commits, get the current number of commits in the branch
+            echo "Commit Number: $(( $(git rev-list --count HEAD) + 1 ))"
+          elif [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            # For pull requests, get the current number of PRs in the repo
+            echo "Pull Request Number: $(( $(gh pr list --json number | jq 'length') + 1 ))"
+          fi
+        shell: bash
+
+      - name: Set event number as an output
+        id: set-event-number
+        run: echo "::set-output name=event_number::${{ steps.get-event-number.outputs.stdout }}"
+
+      - name: Use the event number
+        run: |
+          event_number="${{ steps.set-event-number.outputs.event_number }}"
+          echo "Event Number: $event_number"
+        shell: bash
+
+      # Add more steps here to perform actions based on the event number
