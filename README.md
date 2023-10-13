@@ -125,6 +125,8 @@ Distributed under the MIT License. See [LICENSE](https://github.com/MR-PIxelzen/
 
 
  ## [guide to optimising all discord settings by BareFox](https://youtu.be/TfVkTn2L83o?t=28)
+[<img src="https://i.ytimg.com/vi/TfVkTn2L83o/maxresdefault.jpg" width="600" height="300"
+/>](https://www.youtube.com/embed/TfVkTn2L83o?t=28)
 
 
 
