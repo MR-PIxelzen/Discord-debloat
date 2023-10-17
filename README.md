@@ -37,3 +37,6 @@ Before using Discord Debloat, make sure you have the following prerequisites:
 
 
 
+<div style="text-align:center;">
+  <img src="https://raw.githubusercontent.com/MR-PIxelzen/Discord-debloat/test-2023-09-16-061610/doc/img/Accessibility%20section/accessibility%20setting.png?token=GHSAT0AAAAAACIVWJ4DFYRPLFEJP7G7F4WMZJPA7SQ" width="1000" height="987" alt="screen-install">
+</div>
