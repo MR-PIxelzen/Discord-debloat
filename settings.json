@@ -1,0 +1,13 @@
+{
+  "enableHardwareAcceleration": false,
+  "IS_MAXIMIZED": true,
+  "IS_MINIMIZED": false,
+  "OPEN_ON_STARTUP": false,
+  "debugLogging": false
+  "comments": [
+        "optimising the basics.",
+        "Settings are saved either in the cloud or in an inaccessible file extension.."
+    ],
+
+}
+
