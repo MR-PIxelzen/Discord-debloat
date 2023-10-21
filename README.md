@@ -110,7 +110,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/MR-PIxelzen/Discord-debloat/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/MR-PIxelzen/Discord-debloat/blob/main/LICENSE) for more information.
 
 ## Authors
 
@@ -130,5 +130,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/MR-PIxelzen/
 />](https://www.youtube.com/embed/TfVkTn2L83o?t=28)
  # by barefox
 
-
-
+ 
