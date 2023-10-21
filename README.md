@@ -118,16 +118,17 @@ Distributed under the MIT License. See [LICENSE](https://github.com/MR-PIxelzen/
 
 ## Acknowledgements
 
+* [PiXZeN](https://github.com/MR-PIxelzen)
 * [ShaanCoding](https://github.com/ShaanCoding/)
-* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-* [ImgShields](https://shields.io/)
 
 
 
- ## [guide to optimising all discord settings by BareFox](https://youtu.be/TfVkTn2L83o?t=28)
+ ## video guides for who have a hard time following this guide
+
+
 [<img src="https://i.ytimg.com/vi/TfVkTn2L83o/maxresdefault.jpg" width="600" height="300"
 />](https://www.youtube.com/embed/TfVkTn2L83o?t=28)
-
+ # by barefox
 
 
 
