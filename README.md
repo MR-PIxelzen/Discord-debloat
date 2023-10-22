@@ -114,17 +114,15 @@ Distributed under the MIT License. See [LICENSE](https://github.com/MR-PIxelzen/
 
 ## Authors
 
-* **Shaan Khan** - *Comp Sci Student* - [Shaan Khan](https://github.com/ShaanCoding/) - *Built ReadME Template*
+* **PiXZeN** - *software dev Student* - [PiXZeN](https://github.com/MR-PIxelzen/) - *made most of the scripts*
+* **Shaan Khan** - *Comp Sci Student* - [Shaan Khan](https://github.com/ShaanCoding/) - *using his GitHub template*
 
 ## Acknowledgements
 
 * [PiXZeN](https://github.com/MR-PIxelzen)
 * [ShaanCoding](https://github.com/ShaanCoding/)
 
-
-
  ## video guides for who have a hard time following this guide
-
 
 [<img src="https://i.ytimg.com/vi/TfVkTn2L83o/maxresdefault.jpg" width="600" height="300"
 />](https://www.youtube.com/embed/TfVkTn2L83o?t=28)
