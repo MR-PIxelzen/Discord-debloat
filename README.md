@@ -52,13 +52,17 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+This is an example of how to list things you need to use the script and how to download them.
 
-* npm
+* git or git desktop
 
-```sh
-npm install npm@latest -g
+```sh 
+git clone https://github.com/MR-PIxelzen/Discord-debloat
 ```
+or 
+
+[click me to download the zip file](https://codeload.github.com/MR-PIxelzen/Discord-debloat/zip/refs/heads/main)
+
 
 ### Installation
 
