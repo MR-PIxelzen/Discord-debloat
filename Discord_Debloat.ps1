@@ -121,7 +121,7 @@ foreach ($directory in $directoriesToSearch) {
         "app-1.0.9032",
         "app-1.0.9033",
         "app-1.0.9034",
-        "app-1.0.9025"
+        "app-1.0.9035"
         
         # ... (add other directories)
     )
