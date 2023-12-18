@@ -110,7 +110,19 @@ foreach ($directory in $directoriesToSearch) {
         "app-1.0.9021",
         "app-1.0.9022",
         "app-1.0.9023",
-        "app-1.0.9024"
+        "app-1.0.9024",
+        "app-1.0.9025",
+        "app-1.0.9026",
+        "app-1.0.9027",
+        "app-1.0.9028",
+        "app-1.0.9029",
+        "app-1.0.9030",
+        "app-1.0.9031",
+        "app-1.0.9032",
+        "app-1.0.9033",
+        "app-1.0.9034",
+        "app-1.0.9025"
+        
         # ... (add other directories)
     )
 
